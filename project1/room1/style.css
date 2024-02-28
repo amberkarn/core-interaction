@@ -1,0 +1,66 @@
+div.marquee {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  padding: 5px;
+  background-color: black;
+  width: 100%;
+  border: 1px solid red;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+  color: aliceblue;
+}
+
+body {
+  height: 3000px;
+  background: linear-gradient( white 0%, pink 51%, red 75%);
+}
+
+div.stickyOne {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  padding: 5px;
+}
+
+div.stickyTwo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.5%;
+  right: 5%;
+  padding: 5px;
+}
+
+div.stickyThree {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  padding: 5px;
+}
+
+div.stickyFour {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 7.5%;
+  padding: 5px;
+}
+
+.button {
+    background-color: yellow;
+    cursor: crosshair;
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,135 @@
+body {
+    background:snow;
+}
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 400px; 
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+  } */
+  
+  div.marquee {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    padding: 5px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(50vw);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+  .container {
+    display: grid;
+    grid-auto-columns: 50%;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    padding: 150px;
+    background-color: aqua;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #container{
+      overflow-y: scroll;
+  }
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior:smooth;
+	}
+}
+
+.numberOne {
+    font-size: 1em;
+    color: black;
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #div2 {transition-timing-function: ease;}
+  
+  .numberTwo {
+    border: 1.5px solid black; font-size: 1em;
+    color: snow;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+    
+ .numberTwo:hover {
+    background-color: black;
+    transition:ease-in 0.5s;
+  }
+
+  .numberThree {
+    font-size: 0.75em;
+    color: black;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style:italic;
+  }
+
+  .container-main {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+}
+
+/* html {
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content:center;
+  } */
+  
+  #section1 {
+    height: 600px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: yellow;
+  }
+
+  #section3 {
+    height: 600px;
+    background-color: green;
+  }
+
+  #section4 {
+    height: 600px;
+    background-color: blue;
+  }
+  
