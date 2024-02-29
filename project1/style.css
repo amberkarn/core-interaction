@@ -1,9 +1,40 @@
 body {
     background:snow;
+    transition:ease-in 0.8s;
 }
 
-html {
-    scroll-behavior: smooth;
+.button {
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color:  white;
+    color:  black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    transition:  all 100ms;
+  }
+  
+  .button:hover {
+    background-color: rgb(174, 174, 174);
+    cursor:  pointer;
+  }
+  
+  .buttonOn {
+    background-color:  black;
+    color:  white;
+  }
+  
+ .light {
+    transition:ease-in 0.8s;
+    background-color: darkblue;
+    color: red;
+  }
+
+  a:link, a:visited {
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
   }
 
 /* .grid-container {
@@ -23,13 +54,12 @@ html {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background-color: black;
+    background-color: purple;
   }
   
   .marquee span {
     display: inline-block;
     animation: marquee 15s linear infinite;
-    color: white;
     font-family: "DM Sans", sans-serif;
     font-size: 3em;
     font-weight: 500;
@@ -69,17 +99,16 @@ html {
 }
 
 .numberOne {
-    font-size: 1em;
-    color: black;
+    font-size: 0.8em;
     font-family: "Jomolhari", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  #div2 {transition-timing-function: ease;}
+  #div2 {transition-timing-function:ease-in;}
   
   .numberTwo {
-    border: 1.5px solid black; font-size: 1em;
+    font-size: 1em;
     color: snow;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
@@ -89,24 +118,47 @@ html {
  .numberTwo:hover {
     background-color: black;
     transition:ease-in 0.5s;
+    text-decoration: none;
   }
 
   .numberThree {
-    font-size: 0.75em;
-    color: black;
+    font-size: 0.6em;
     font-family: "Jomolhari", serif;
     font-weight: 200;
     font-style:italic;
   }
 
-  .container-main {
+  .numberFour {
+    color: whitesmoke;
+    font-size: 4em;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style:italic;
+  }
+
+  .containerLeft {
+    max-width: 50%;
+    float:left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+.containerLeftText {
+   padding: 13%;
+}
+
+.containerRight {
     max-width: 50%;
     width: 50%;
-    float: left;
+    float: right;
     height: 100vh;
     overflow-x: scroll;
     overflow-y: scroll; 
     overflow: scroll;
+    scroll-behavior: smooth;
 }
 
 /* html {
@@ -118,22 +170,34 @@ html {
   } */
   
   #section1 {
-    height: 600px;
-    background-color: pink;
+    height: 1000px;
+   
   }
   
   #section2 {
-    height: 600px;
-    background-color: yellow;
+    height: 1000px;
   }
 
   #section3 {
-    height: 600px;
-    background-color: green;
+    height: 1000px;
   }
 
   #section4 {
-    height: 600px;
-    background-color: blue;
+    height: 1000px;
   }
   
+  #mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
