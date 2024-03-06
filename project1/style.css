@@ -1,95 +1,126 @@
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px;
+  height: 48px;
+  background: url('/project1/imgs/redcursor.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#slider {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 10px;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  -webkit-transition: .3s;
+  transition: opacity .3s;
+}
+
+.container {
+  text-align: center;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 4em;
+  font-family: "Jomolhari", serif;
+  font-weight: 200;
+  font-style:italic;
+}
+
+
 body {
-    background:snow;
+  cursor: url(/project1/imgs/blackcursorsmall.png), auto;
+  background:snow;
     transition:ease-in 0.8s;
 }
 
+
+#text {
+  font-size: 0;
+  transition: font-size 0.5s ease-in-out;
+}
+
+
+.titleMain {
+  border-bottom: 3px solid black; 
+}
+
+.marquee {
+  width: 100%; 
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee-animation 180s linear infinite;
+}
+
+.marquee-content span {
+  padding-right: 20px;
+}
+
+  @keyframes marquee-animation {
+    0% { transform: translateX(0%); } /* Initial position */
+    100% { transform: translateX(-100%); } /* Regular animation */
+  }
+
+
 .button {
-    padding: 20px 50px;
-    border-radius: 30px;
-    background-color:  white;
+    padding: 15px;
+    border-radius: 200px;
+    width: fit-content;
+    background-color: red;
     color:  black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     text-align:  center;
-    transition:  all 100ms;
+    transition:  all 290ms;
   }
   
   .button:hover {
     background-color: rgb(174, 174, 174);
-    cursor:  pointer;
+    cursor: pointer;
   }
   
   .buttonOn {
-    background-color:  black;
-    color:  white;
+    background-color:  red;
+    color:  black;
   }
   
  .light {
     transition:ease-in 0.8s;
-    background-color: darkblue;
+    background-color: black;
     color: red;
+    cursor: url(/project1/imgs/redcursor.png), auto;
   }
 
   a:link, a:visited {
-    padding: 10px;
-    text-align: right;
     text-decoration: none;
-    display: inline-block;
   }
-
-/* .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 400px; 
-    display: grid;
-    gap: 1rem;
-    grid-auto-flow: column;
-  } */
   
-  div.marquee {
+   div.blink {
     position: -webkit-sticky;
     position: sticky;
     top: 0%;
-    padding: 5px;
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background-color: purple;
+    background-color: black;
   }
   
-  .marquee span {
-    display: inline-block;
-    animation: marquee 15s linear infinite;
+  
+  .blink span {
     font-family: "DM Sans", sans-serif;
     font-size: 3em;
     font-weight: 500;
     font-style: normal;
-  }
-
-  @keyframes marquee {
-    0% {
-      transform: translateX(50vw);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-}
-
-  .container {
-    display: grid;
-    grid-auto-columns: 50%;
-    grid-auto-flow: column;
-    overflow-x: auto;
-    padding: 150px;
-    background-color: aqua;
-  }
-
-html {
-    scroll-behavior: smooth;
-  }
-  
-  #container{
-      overflow-y: scroll;
+    color: snow;
   }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -108,11 +139,13 @@ html {
   #div2 {transition-timing-function:ease-in;}
   
   .numberTwo {
-    font-size: 1em;
+    font-size: 0.8em;
     color: snow;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
+    text-decoration: underline black 2px;
+    cursor: pointer;
   }
     
  .numberTwo:hover {
@@ -122,15 +155,54 @@ html {
   }
 
   .numberThree {
-    font-size: 0.6em;
+    font-size: 2.5em;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style:italic;
+    transition: filter 0.5s ease-in-out;
+    padding: 2.5%;
+  }
+  
+  .numberThree {
+    font-size: 3em;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+  .numberThree span {
+      filter: blur(10px);
+      transition: filter 0.5s ease-in-out;
+  }
+
+  .numberThree span:hover {
+    filter: blur(0.5px);
+  }
+
+  .numberFour {
+    color: snow;
+    font-size: 4em;
     font-family: "Jomolhari", serif;
     font-weight: 200;
     font-style:italic;
   }
 
-  .numberFour {
-    color: whitesmoke;
-    font-size: 4em;
+  .numberFive {
+    font-size: 1em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .numberSix {
+    font-size: 6em;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style:italic;
+  }
+
+  .numberSeven {
+    font-size: 3em;
     font-family: "Jomolhari", serif;
     font-weight: 200;
     font-style:italic;
@@ -140,10 +212,10 @@ html {
     max-width: 50%;
     float:left;
     height: 100vh;
-    overflow-x: scroll;
-    overflow-y: scroll; 
     scroll-behavior: smooth;
     display: flex;
+    border-top: 2px solid black; 
+   padding-bottom: 8px;  
 }
 
 .containerLeftText {
@@ -152,52 +224,9 @@ html {
 
 .containerRight {
     max-width: 50%;
-    width: 50%;
-    float: right;
     height: 100vh;
-    overflow-x: scroll;
-    overflow-y: scroll; 
     overflow: scroll;
     scroll-behavior: smooth;
+    border-top: 2px solid black; 
+   padding-bottom: 8px;  
 }
-
-/* html {
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    -webkit-justify-content: space-around;
-    justify-content:center;
-  } */
-  
-  #section1 {
-    height: 1000px;
-   
-  }
-  
-  #section2 {
-    height: 1000px;
-  }
-
-  #section3 {
-    height: 1000px;
-  }
-
-  #section4 {
-    height: 1000px;
-  }
-  
-  #mydiv {
-    position: absolute;
-    z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    text-align: center;
-  }
-  
-  #mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196F3;
-    color: #fff;
-  }
