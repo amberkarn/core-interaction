@@ -1,3 +1,42 @@
+@media only screen and (max-width: 767px) {
+  .containerLeft {
+    height:fit-content;
+    scroll-behavior: smooth;
+    border-top: 2px solid black; 
+}
+
+.mobile {
+  max-width:max-content;
+  max-height: 100vh;
+}
+
+.containerLeftText {
+  max-width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  font-size: 0.46em;
+  scroll-behavior: smooth;
+ padding: 2%;  
+}
+
+.containerRight {
+  font-size: 0.6em;
+  max-width: 50%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  border-top: 2px solid black; 
+  height: 100vh;
+}
+
+.marquee {
+  font-size: 0.5em;
+}
+}
+
+
+
+
 #slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -32,8 +71,11 @@
 }
 
 
+
+
+
 body {
-  cursor: url(/project1/imgs/blackcursorsmall.png), auto;
+  cursor: url(/project1/imgs/redsmall.png), auto;
   background:snow;
     transition:ease-in 0.8s;
 }
@@ -45,8 +87,11 @@ body {
 }
 
 
+
+
+
 .titleMain {
-  border-bottom: 3px solid black; 
+  border-bottom: 3px solid blue; 
 }
 
 .marquee {
@@ -54,7 +99,9 @@ body {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
+  border-bottom: 2px solid white; 
 }
+  
 
 .marquee-content {
   display: inline-block;
@@ -69,6 +116,10 @@ body {
     0% { transform: translateX(0%); } /* Initial position */
     100% { transform: translateX(-100%); } /* Regular animation */
   }
+
+
+
+
 
 
 .button {
@@ -92,20 +143,49 @@ body {
   
   .buttonOn {
     background-color:  red;
-    color:  black;
+    color: black;
   }
   
  .light {
     transition:ease-in 0.8s;
-    background-color: black;
-    color: red;
-    cursor: url(/project1/imgs/redcursor.png), auto;
+   color: white;
+    background-color: #000052;
+    cursor: url(/project1/imgs/redsmall.png), auto;
+
+    .numberTwo:hover {
+      background-color: red;
+      color: white;
+      transition:ease-in 0.5s;
+      text-decoration: none;
+    }
+
+    .numberTwo {
+      font-size: 0.8em;
+      color: #000052;
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: underline white 2px;
+      cursor: pointer;
+    }
+    .text {
+      font-size: 4em;
+      font-family: "Jomolhari", serif;
+      font-weight: 200;
+      font-style:italic;
+      color: red;
+    }
+    
   }
 
   a:link, a:visited {
     text-decoration: none;
   }
   
+
+
+
+
    div.blink {
     position: -webkit-sticky;
     position: sticky;
@@ -128,6 +208,10 @@ body {
 		scroll-behavior:smooth;
 	}
 }
+
+
+
+
 
 .numberOne {
     font-size: 0.8em;
@@ -207,6 +291,10 @@ body {
     font-weight: 200;
     font-style:italic;
   }
+
+
+
+
 
   .containerLeft {
     max-width: 50%;
