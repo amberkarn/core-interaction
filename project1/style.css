@@ -32,6 +32,7 @@
 .marquee {
   font-size: 0.5em;
 }
+
 }
 
 
@@ -45,6 +46,8 @@
   background: url('/project1/imgs/redcursor.png');
   background-repeat: no-repeat;
   cursor: pointer;
+  color: aquamarine;
+
 }
 
 #slider {
@@ -52,7 +55,6 @@
   width: 25%;
   height: 10px;
   border-radius: 50px;
-  border: 1.5px solid black;
   -webkit-transition: .3s;
   transition: opacity .3s;
 }
@@ -76,7 +78,7 @@
 
 body {
   cursor: url(/project1/imgs/redsmall.png), auto;
-  background:snow;
+  background-color: rgb(255, 230, 0);
     transition:ease-in 0.8s;
 }
 
@@ -90,16 +92,13 @@ body {
 
 
 
-.titleMain {
-  border-bottom: 3px solid blue; 
-}
 
 .marquee {
   width: 100%; 
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  border-bottom: 2px solid white; 
+  border-bottom: 2px solid black; 
 }
   
 
@@ -148,15 +147,29 @@ body {
   
  .light {
     transition:ease-in 0.8s;
-   color: white;
+   color: snow;
     background-color: #000052;
     cursor: url(/project1/imgs/redsmall.png), auto;
 
     .numberTwo:hover {
       background-color: red;
-      color: white;
+      color: snow;
       transition:ease-in 0.5s;
       text-decoration: none;
+    }
+
+    div.blink {
+      background-color: snow;
+    color:#000052 ;
+    }
+
+    .blink span {
+      font-family: "DM Sans", sans-serif;
+      font-size: 3em;
+      font-weight: 500;
+      font-style: normal;
+      color:#000052 ;
+
     }
 
     .numberTwo {
@@ -165,7 +178,7 @@ body {
       font-family: "DM Sans", sans-serif;
       font-weight: 500;
       font-style: normal;
-      text-decoration: underline white 2px;
+      text-decoration: underline snow 2px;
       cursor: pointer;
     }
     .text {
@@ -175,6 +188,10 @@ body {
       font-style:italic;
       color: red;
     }
+
+    .marquee {
+      border-bottom: 2px solid snow; 
+    }
     
   }
 
@@ -183,7 +200,13 @@ body {
   }
   
 
-
+  .text {
+    font-size: 4em;
+    font-family: "Jomolhari", serif;
+    font-weight: 200;
+    font-style:italic;
+    color: red;
+  }
 
 
    div.blink {
@@ -224,7 +247,7 @@ body {
   
   .numberTwo {
     font-size: 0.8em;
-    color: snow;
+    color: rgb(255, 230, 0);
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -234,6 +257,7 @@ body {
     
  .numberTwo:hover {
     background-color: black;
+    color: snow;
     transition:ease-in 0.5s;
     text-decoration: none;
   }
@@ -264,12 +288,22 @@ body {
   }
 
   .numberFour {
-    color: snow;
+    color: rgb(255, 230, 0);
     font-size: 4em;
     font-family: "Jomolhari", serif;
     font-weight: 200;
     font-style:italic;
+    animation: fadeInOut 12s ease infinite;
   }
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
 
   .numberFive {
     font-size: 1em;
@@ -280,9 +314,9 @@ body {
 
   .numberSix {
     font-size: 6em;
-    font-family: "Jomolhari", serif;
-    font-weight: 200;
-    font-style:italic;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
 
   .numberSeven {
@@ -302,7 +336,6 @@ body {
     height: 100vh;
     scroll-behavior: smooth;
     display: flex;
-    border-top: 2px solid black; 
    padding-bottom: 8px;  
 }
 
@@ -315,6 +348,5 @@ body {
     height: 100vh;
     overflow: scroll;
     scroll-behavior: smooth;
-    border-top: 2px solid black; 
    padding-bottom: 8px;  
 }
