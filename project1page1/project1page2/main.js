@@ -23,11 +23,6 @@ numberThree.addEventListener('mouseout', function() {
     this.classList.remove('unblur');
 });
 
-
-
-
-document.documentElement.style.cursor = 'url(/project1/imgs/blackcursor.png), auto';
-
 const slider = document.getElementById("slider");
 const text = document.getElementById("text");
 

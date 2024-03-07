@@ -345,3 +345,19 @@ body {
     scroll-behavior: smooth;
    padding-bottom: 8px;  
 }
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-link:hover {
+  transform: translateY(-5px); /* Move the button up on hover */
+}
+
+.button-image {
+  display: block;
+width: fit-content;  height: auto;
+}

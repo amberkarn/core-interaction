@@ -1,0 +1,97 @@
+body {
+    cursor: url(/project1page1/imgs/redsmall.png), auto;
+background-color:rgb(48, 180, 48);
+}
+
+.small {
+    animation: floatUpDown 3s infinite;
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3em;
+text-align: center;
+}
+
+.smaller {
+    animation: floatUpDown 3s infinite;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10em;
+    text-align: center;
+}
+
+@keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value to change the float distance */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .floating-text {
+    animation: floatUpDown 4s infinite;
+    text-align: center;
+    border-bottom: 1px black;
+    color: black;
+  }
+  
+  @keyframes forwardAnimation {
+    0% {
+
+      background-image: url('/project1page1/spritesheet/animation-12.png');
+    }
+    33.333% {
+        background-image: url('/project1page1/spritesheet/animation-16.png');
+    }
+    50% {
+        background-image: url('/project1page1/spritesheet/animation-17.png'); /* Loop back to the first image */
+    }
+    66.666% {
+        background-image: url('/project1page1/spritesheet/animation-15.png');
+    }
+    83.333% {
+        background-image: url('/project1page1/spritesheet/animation-12.png');
+    }
+    100% {
+        background-image: url('/project1page1/spritesheet/animation-12.png');
+    }
+  }
+
+  .image-container {
+    width: 236px;
+    height: 250px;
+    background-size: cover;
+    animation: forwardAnimation 6s infinite;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    right: 260px;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+    
+  }
+
+  .image-link:hover .image-container {
+    transform: scale(1.1); /* Scale the image on hover */
+  }
+
+  .image-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
