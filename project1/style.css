@@ -42,7 +42,7 @@
   appearance: none;
   width: 48px;
   height: 48px;
-  background: url('/project1/imgs/redcursor.png');
+  background: url('/project1/imgs/redsmall.png');
   background-repeat: no-repeat;
   cursor: pointer;
   color: aquamarine;
