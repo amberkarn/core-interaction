@@ -2,7 +2,6 @@
   .containerLeft {
     height:fit-content;
     scroll-behavior: smooth;
-    border-top: 2px solid black; 
 }
 
 .mobile {
@@ -25,12 +24,12 @@
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  border-top: 2px solid black; 
   height: 100vh;
 }
 
 .marquee {
   font-size: 0.5em;
+  border-bottom: 2px solid black; 
 }
 
 }
