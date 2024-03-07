@@ -29,9 +29,6 @@
 
 .marquee {
   font-size: 0.5em;
-  border-bottom: 2px solid black; 
-}
-
 }
 
 
@@ -46,7 +43,6 @@
   background-repeat: no-repeat;
   cursor: url(/imgs/redsmall.png), auto;
   color: aquamarine;
-
 }
 
 #slider {
