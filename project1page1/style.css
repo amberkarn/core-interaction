@@ -1,3 +1,17 @@
+@media only screen and (max-width: 768px) {
+  .image-container {
+      width: 100%;
+      height: auto;
+      top: auto;
+      right: auto;
+      margin: 0 auto; 
+  }
+
+  .caption {
+      bottom: 20px;
+  }
+}
+
 body {
     cursor: url(/project1page1/imgs/redsmall.png), auto;
 background-color:rgb(48, 180, 48);
