@@ -42,9 +42,9 @@
   appearance: none;
   width: 48px;
   height: 48px;
-  background: url('/project1/imgs/redsmall.png');
+  background: url('/imgs/redcursor.png');
   background-repeat: no-repeat;
-  cursor: pointer;
+  cursor: url(/imgs/redsmall.png), auto;
   color: aquamarine;
 
 }
@@ -61,7 +61,7 @@
 .container {
   text-align: center;
   margin: 50px;
-  cursor: pointer;
+  cursor: url(/imgs/redsmall.png), auto;
 }
 
 .text {
@@ -76,7 +76,7 @@
 
 
 body {
-  cursor: url(/project1/imgs/redsmall.png), auto;
+  cursor: url(/imgs/redsmall.png), auto;
   background-color: rgb(255, 230, 0);
     transition:ease-in 0.8s;
 }
@@ -136,7 +136,7 @@ body {
   
   .button:hover {
     background-color: rgb(174, 174, 174);
-    cursor: pointer;
+    cursor: url(/imgs/blackcursorsmall.png), auto;
   }
   
   .buttonOn {
@@ -148,7 +148,7 @@ body {
     transition:ease-in 0.8s;
    color: snow;
     background-color: #000052;
-    cursor: url(/project1/imgs/redsmall.png), auto;
+    cursor: url(/imgs/redsmall.png), auto;
 
     .numberTwo:hover {
       background-color: red;
@@ -178,7 +178,7 @@ body {
       font-weight: 500;
       font-style: normal;
       text-decoration: underline snow 2px;
-      cursor: pointer;
+      cursor: url(/imgs/redsmall.png), auto;
     }
     .text {
       font-size: 4em;
@@ -251,7 +251,7 @@ body {
     font-weight: 500;
     font-style: normal;
     text-decoration: underline black 2px;
-    cursor: pointer;
+    cursor: url(/imgs/redsmall.png), auto;
   }
     
  .numberTwo:hover {
