@@ -58,22 +58,22 @@ text-align: center;
   @keyframes forwardAnimation {
     0% {
 
-      background-image: url('/project1page1/spritesheet/animation-12.png');
+      background-image: url('/project1page1/spritesheet/animation-11.png');
     }
     33.333% {
-        background-image: url('/project1page1/spritesheet/animation-16.png');
+        background-image: url('/project1page1/spritesheet/animation-13.png');
     }
     50% {
-        background-image: url('/project1page1/spritesheet/animation-17.png'); /* Loop back to the first image */
+        background-image: url('/project1page1/spritesheet/animation-15.png'); 
     }
     66.666% {
-        background-image: url('/project1page1/spritesheet/animation-15.png');
+        background-image: url('/project1page1/spritesheet/animation-17.png');
     }
     83.333% {
-        background-image: url('/project1page1/spritesheet/animation-12.png');
+        background-image: url('/project1page1/spritesheet/animation-15.png');
     }
     100% {
-        background-image: url('/project1page1/spritesheet/animation-12.png');
+        background-image: url('/project1page1/spritesheet/animation-13.png');
     }
   }
 
