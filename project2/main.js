@@ -1,13 +1,13 @@
 const tasks =
     [
         {
-            "title": "Learn HTML",
+            "title": "christy",
             "img": 'data10.png',
             "time": 100,
             "completed": true
         },
         {
-            "title": "Learn CSS",
+            "title": "christy again",
             "img": 'data11.png',
             "time": 5,
             "completed": true
