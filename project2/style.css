@@ -1,4 +1,96 @@
-body {
+  .left-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 23rem; 
+    border-right: solid black 2px;
+    background-color: paleturquoise;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    align-items: flex-start;
+    z-index: 1000; 
+}
+
+.top-left-button {
+    background-color: black;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    border-radius: 50%; 
+    display: block;
+    margin-bottom: auto;
+    transform: translateY(0%); 
+  }
+
+.top-left-button:hover {
+  opacity: 0.8; 
+}
+
+.big-title {
+    font-size: 2rem;
+    background-color: green;
+    text-align: left;
+    margin-top: auto; 
+    margin-bottom: 2.5rem; 
+}
+
+
+.body-text {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: red;
+}
+
+.bottom-menu {
+    bottom: 0;
+    left: 23rem;
+    border-top: solid black 2px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+    background-color: yellow;
+}
+
+.menu-item {
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .left-menu {
+        display: none;
+    }
+    .bottom-menu {
+        left: 0;
+        width: 100%;
+        max-width: none; /* Reset max-width for mobile */
+    }
+}
+
+
+
+/* body {
   padding: 2rem;
   font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +114,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  color: blue;
 }
 
 .row-flexbox {
@@ -32,14 +125,13 @@ h1 {
 }
 
 .task {
-  background-color: #f4f4f4;
-  border-bottom: 1px #ccc dotted;
-  padding: 1rem;
+  background-color:red;
+  border-bottom: 10px #ccc dotted;
+  padding: 3rem;
   text-align: center;
-  width: 200px;
-  aspect-ratio: 1/1;
+  width: 6em;
   border-radius: 1rem;
-  box-shadow: #f4f4f4;
+  box-shadow: green;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -57,4 +149,4 @@ h1 {
   max-width: 50px;
   max-height: 50px;
   margin-bottom: 1rem;
-}
+} */
