@@ -10,33 +10,53 @@
     <script defer src="main.js"></script>
 </head>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
 <body>
 
-  <div class="grid-container">
+  <div class="main-container">
     <div class="left-menu">
-        <a href="https://example.com" class="top-left-button"></a>
-        <div class="body-text">
-            A historical and modern archive of stylists, models and fashion photographers. Curated by Amber Pjongluck    
-        </div>
+        <!-- Content for left menu -->
+        <a href="#" class="top-left-button">Homepage</a>
         <div class="big-title">
             Collections:
             <br>A Fashion Archive</br> 
         </div>
+        <div class="body-text" id="category-placeholder">
+            A historical and modern archive of stylists, models and fashion photographers. Curated by Amber Pjongluck    
+        </div>
     </div>
 
-    <div class="bottom-menu">
-        <button class="btn"> &lt; </button>
-        <div class="profile">
-            <a href="https://example.com" class="menu-item">Center Link</a>
-            <a href="https://example.com" class="menu-item">Center Link</a>
-            <a href="https://example.com" class="menu-item">Center Link</a>
-            <a href="https://example.com" class="menu-item">Center Link</a>
-            <a href="https://example.com" class="menu-item">Center Link</a>
-            <a href="https://example.com" class="menu-item">Center Link</a>
-        </div>
-        <button class="btn"> &gt; </button>
+    <!-- Remaining content -->
+</div>
+
+<div class="content-container">
+    <!-- Photo grid -->
+    <div id="toolbox" class="photo-grid"></div>
+</div>
+
+<div class="bottom-menu">
+    <!-- Category links -->
+    <div class="links" id="category-links">
+        <a href="#">Christy Turlington</a>
+        <a href="#">Steven Meisel</a>
+        <a href="#">Peter Lindbergh</a>
+        <a href="#">Linda Evangelista</a>
+        <a href="#">Diana Vreeland</a>
+        <a href="#">Mona Tougaard</a>
     </div>
 </div>
+
+<script defer src="script.js"></script>
 
 </body>
 </html>
