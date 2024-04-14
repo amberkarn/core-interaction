@@ -74,6 +74,10 @@ body {
   overflow-x: hidden;
 }
 
+.photo-grid:hover {
+  cursor: pointer;
+}
+
 .task img {
   max-width: 100%;
   max-height: 100%;
@@ -91,7 +95,7 @@ body {
 }
 
 .links-container {
-  width: 37rem; 
+  width: 30rem; 
   overflow-x: hidden;
   white-space: nowrap;
 }
@@ -104,27 +108,30 @@ body {
 }
 
 .left-nav-button {
-  margin-right: 0.5rem;
+  margin-left: 3rem;
   color:rgb(207, 0, 0); 
 
 }
 .right-nav-button {
-  margin-left: 0.1rem; 
+  margin-right: 2rem; 
   color:rgb(207, 0, 0); 
 
 }
 
 .property-text {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  margin-top: 4rem; 
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 1.6em; 
+  margin-left: 1.5rem; 
   font-family: "Azeret Mono", monospace;
+  width: 80%; 
+
 }
 
 .enlarged-image {
   width: 80%; 
-  margin-top: 15rem; 
-  margin-left: 0.5rem; 
+  margin-top: 18rem; 
+  margin-left: 2rem; 
 }
 
 
@@ -146,7 +153,9 @@ body {
 
 .left-menu h2 {
   font-size: 2.8rem; 
-  margin-top: 2.5rem; 
+  margin-top: 2.7rem; 
+  line-height: 50px;
+
 }
 
 .left-menu p {
@@ -156,7 +165,10 @@ body {
 position: absolute;
   margin-left: 0.1rem;
  font-family: "Azeret Mono", monospace;
+ line-height: 18px;
 }
+
+
 
 @media only screen and (max-width: 767px) {
   .left-menu {
@@ -183,3 +195,4 @@ position: absolute;
     padding: 0;
   }
 }
+

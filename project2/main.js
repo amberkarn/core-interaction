@@ -3,13 +3,13 @@ const tasks = [
         "title": "CHRISTY TURLINGTON1",
         "img": 'christy1.jpg',
         "category": 'CHRISTY TURLINGTON',
-        "id": 'TO BE LOGGED'
+        "what": 'Valentino FW 1991-1992'
     },
     {
         "title": "CHRISTY TURLINGTON2",
         "img": 'christy2.jpg',
         "category": 'CHRISTY TURLINGTON',
-        "id": 'TO BE LOGGED'
+        "what": 'Chanel SS 1993'
     },
 
     {
@@ -615,7 +615,7 @@ const tasks = [
         "title": "STEVEN MEISEL1",
         "img": 'steven1.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
+        "where": 'Vogue UK (December 1993)'
     },
     {
         "title": "STEVEN MEISEL2",
@@ -635,34 +635,38 @@ const tasks = [
         "title": "STEVEN MEISEL4",
         "img": 'steven4.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
+        "who": 'Daria Werbowy',
+        "what": 'Prada FW 2003',
+        "where": 'Vogue Italia (October 2003)'
     },
     {
         "title": "STEVEN MEISEL5",
         "img": 'steven5.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "who": 'Daria Werbowy',
+        "what": 'Prada FW 2003',
+        "where": 'Vogue Italia (October 2003)'
+        },
     {
         "title": "STEVEN MEISEL6",
         "img": 'steven6.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "who": 'Daria Werbowy',
+        "what": 'Prada FW 2003',
+        "where": 'Vogue Italia (October 2003)'    },
 
     {
         "title": "STEVEN MEISEL7",
         "img": 'steven7.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
-
+        "what": 'Versace SS 2002',
+        "where": 'Vogue UK (May 2002)'    },
     {
         "title": "STEVEN MEISEL8",
         "img": 'steven8.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "what": 'Versace SS 2002',
+        "where": 'Vogue UK (May 2002)'    },
     {
         "title": "STEVEN MEISEL9",
         "img": 'steven9.jpg',
@@ -673,14 +677,12 @@ const tasks = [
         "title": "STEVEN MEISEL10",
         "img": 'steven10.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "where": 'Vogue Italia (June 2002)'    },
     {
         "title": "STEVEN MEISEL11",
         "img": 'steven11.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "where": 'Vogue Italia (June 2002)'    },
     {
         "title": "Steven Meise12",
         "img": 'steven12.jpg',
@@ -692,8 +694,7 @@ const tasks = [
         "title": "STEVEN MEISEL13",
         "img": 'steven13.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "where": 'Vogue Italia (June 2002)'    },
 
     {
         "title": "STEVEN MEISEL14",
@@ -705,8 +706,9 @@ const tasks = [
         "title": "STEVEN MEISEL15",
         "img": 'steven15.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'TO BE LOGGED'
-    },
+        "where": 'Vogue Italia (September 1996)',    
+        "what": 'Dolce & Gabbana FW 1996'    },
+
     {
         "title": "STEVEN MEISEL16",
         "img": 'steven16.jpg',
@@ -775,59 +777,69 @@ const tasks = [
         "title": "STEVEN MEISEL26",
         "img": 'steven26.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'Vogue Italia March 2001'
+        "id": 'Vogue Italia (March 2001)'
     },
     {
         "title": "STEVEN MEISEL27",
         "img": 'steven27.jpg',
         "category": 'STEVEN MEISEL',
-        "id": 'Vogue Italia March 2001'
+        "id": 'Vogue Italia (March 2001)'
     },
 
 {
         "title": "PETER LINDBERGH1",
         "img": 'peter1.jpg',
         "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "who": 'Amber Valletta',
+        "where": 'Harpers Bazaar (1993)'
     },
     {
         "title": "PETER LINDBERGH2",
         "img": 'peter2.jpg',
         "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "who": 'Amber Valletta',
+        "where": 'Harpers Bazaar (1993)'
     },
 
     {
         "title": "PETER LINDBERGH3",
         "img": 'peter3.jpg',
         "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "who": 'Lynne Koester',
+        "what": 'Comme Des Garçons',
+        "where": 'Paris (1984)'
     },
 
     {
         "title": "PETER LINDBERGH4",
         "img": 'peter4.jpg',
         "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "who": 'Saskia de Brauw and Daft Punk',
+        "where": 'M le Magazine du Monde (December 2013)'
     },
     {
         "title": "PETER LINDBERGH5",
         "img": 'peter5.jpg',
         "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "who": 'Michaela Bercu',
+        "what": 'Anna Wintour Inaugural Vogue Cover',
+        "where": 'Vogue US (November 1988)'
     },
     {
         "title": "PETER LINDBERGH6",
         "img": 'peter6.jpg',
-        "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "category": ['PETER LINDBERGH','LINDA EVANGELISTA'],
+        "who": 'Kirsten Owen, Michaela Bercu and Linda Evangelista',
+        "where": 'Pont-à-Mousson, 1988',
+        "what": 'Comme Des Garçons',
     },
 
     {
         "title": "PETER LINDBERGH7",
         "img": 'peter7.jpg',
-        "category": 'PETER LINDBERGH',
-        "id": 'TO BE LOGGED'
+        "category": ['PETER LINDBERGH', 'CHRISTY TURLINGTON'],
+        "who": 'Christy Turlington',
+        "what": 'Calvin Klein SS 1995',
     },
 
     {
@@ -922,7 +934,9 @@ const tasks = [
         "title": "PETER LINDBERGH22",
         "img": 'peter22.jpg',
         "category": ['PETER LINDBERGH', 'NAOMI CAMPBELL'],
-        "id": 'TO BE LOGGED'
+        "who": 'Naomi Campbell',
+        "where": 'Vogue Italia (September 1994)',
+        "what": 'Prada FW 1994',
     },
 
     {
@@ -936,7 +950,9 @@ const tasks = [
         "title": "PETER LINDBERGH24",
         "img": 'peter24.jpg',
         "category": ['PETER LINDBERGH', 'LINDA EVANGELISTA'],
-        "id": 'TO BE LOGGED'
+        "who": 'Linda Evangelista',
+        "where": 'Vogue UK (September 1993)',
+        "what": 'Jil Sander FW 1993',
     },
     {
         "title": "DIANA VREELAND",
@@ -1330,6 +1346,7 @@ function renderContent() {
 
         const img = document.createElement('img');
         img.src = 'img/' + task.img;
+        img.loading = 'eager'
         img.alt = task.title;
         let filterTimeout; 
 
@@ -1379,7 +1396,7 @@ function renderContent() {
 function upLeftMenu(task) {
     leftMenu.innerHTML = '';
 
-    const propertiesToDisplay = ["category", "id"];
+    const propertiesToDisplay = ["category", "who", "what", "where", "id"];
 
     const imageContainer = document.createElement('div');
     imageContainer.style.position = 'relative'; 
@@ -1449,8 +1466,9 @@ const placeholderTexts = {
     "LINDA EVANGELISTA": "Established herself as one of the most versatile and enduring supermodels, known for her chameleon-like ability to transform for the camera and for her iconic collaborations with photographers and designers.",
     "SORA CHOI": "Captured the fashion world's attention with her captivating presence and versatility, solidifying her status as one of South Korea's most successful international models.",
     "MONA TOUGAARD": "Gained attention for her striking and unique features, quickly becoming a sought-after model for top designers and fashion houses.",
-    "STEVEN MEISEL": "Became renowned for his collaborations with Vogue Italia and for discovering and nurturing the careers of numerous supermodels, contributing significantly to the evolution of fashion photography",
+    "STEVEN MEISEL": "Became renowned for his collaborations with Vogue Italia and for discovering and nurturing the careers of numerous supermodels, contributing significantly to the evolution of fashion photography.",
     "NAOMI CAMPBELL": "Emerged as one of the most recognizable and influential supermodels of her generation, breaking racial barriers and reshaping the standards of beauty in the fashion industry.",
+    "DIANA VREELAND": "A legendary fashion editor and curator, known for her avant-garde approach to style and her influential positions at Harper's Bazaar and Vogue. She played a pivotal role in shaping fashion and culture during the 20th century with her innovative editorial direction and bold aesthetic choices.",
 }
 
 ;function upControls() {
@@ -1477,13 +1495,15 @@ const placeholderTexts = {
 
 document.addEventListener('DOMContentLoaded', function() {
     const title = "COLLECTIONS: A FASHION ARCHIVE";
-    const text = "A historical and modern archive of stylists, models, and fashion photographers.";
+    const placeholderTexts = {
+        "COLLECTIONS: A FASHION ARCHIVE": "A historical and modern archive of stylists, models and fashion photographers."
+    };
 
-    displayLeftMenuText(title, text);
+    displayLeftMenuText(title, placeholderTexts);
     addHomeButton();
 });
 
-function addHomeButton() {
+function addHomeButton(placeholderText) {
     const homeButton = document.createElement('button');
     homeButton.id = 'home-button';
     homeButton.classList.add('home-button'); 
@@ -1497,8 +1517,7 @@ function addHomeButton() {
     homeButton.addEventListener('click', () => {
         toolbox.innerHTML = '';
 
-    
-        displayLeftMenuText("COLLECTIONS: A FASHION ARCHIVE", "A historical and modern archive of stylists, models and fashion photographers.");
+        displayLeftMenuText("COLLECTIONS: A FASHION ARCHIVE", placeholderText);
 
         showCategory = 'all';
         renderContent();
@@ -1508,6 +1527,7 @@ function addHomeButton() {
         });
     });
 }
+
 
 
 
@@ -1529,12 +1549,13 @@ function displayLeftMenuText(categoryName, placeholderTexts) {
 
 
 
+
 const leftButton = document.querySelector('.left-nav-button');
 const rightButton = document.querySelector('.right-nav-button');
 const linksContainer = document.querySelector('.links-container');
 const links = linksContainer.querySelectorAll('a');
 
-let totalLinkWidth = 0;
+let totalLinkWidth = 20;
 
 links.forEach(link => {
     totalLinkWidth += link.offsetWidth; 
@@ -1562,8 +1583,11 @@ const photoGrid = document.querySelector('.photo-grid');
 photoGrid.addEventListener('wheel', function(event) {
     event.preventDefault();
     const delta = event.deltaY;
-    const scrollSpeed = 13; 
-    const smoothScrollAmount = 20;
+
+    console.log(event.deltaY)
+
+    const scrollSpeed = Math.abs(delta); 
+    const smoothScrollAmount = 0;
     function smoothScroll() {
         if (delta < 0) {
             photoGrid.scrollLeft -= scrollSpeed;
