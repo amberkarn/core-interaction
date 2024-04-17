@@ -430,6 +430,13 @@ const tasks = [
         "category": 'ANOK YAI',
         "id": 'TO BE LOGGED'
     },
+    {
+        "title": "ANOK YAI26",
+        "img": 'anok26.jpg',
+        "category": 'ANOK YAI',
+        "what": 'Courreges FW 2023',
+        "who": 'Anok Yai'
+    },
     
     {
         "title": "LINDA EVANGELISTA1",
@@ -955,62 +962,86 @@ const tasks = [
         "what": 'Jil Sander FW 1993',
     },
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND1",
         "img": 'diana1.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND2",
         "img": 'diana2.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
 
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND3",
         "img": 'diana3.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
 
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND4",
         "img": 'diana4.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND5",
         "img": 'diana5.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND6",
         "img": 'diana6.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
 
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND7",
         "img": 'diana7.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
 
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND8",
         "img": 'diana8.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
     },
     {
-        "title": "DIANA VREELAND",
+        "title": "DIANA VREELAND9",
         "img": 'diana9.jpg',
         "category": 'DIANA VREELAND',
         "id": 'TO BE LOGGED'
+    },
+    {
+        "title": "DIANA VREELAND10",
+        "img": 'diana10.jpg',
+        "category": 'DIANA VREELAND',
+        "what": 'Diana Vreeland at the opening of a Hollywood costumes exhibition at the Met (November 1974)'
+    },
+    {
+        "title": "DIANA VREELAND11",
+        "img": 'diana11.jpg',
+        "category": 'DIANA VREELAND',
+        "what": 'At a Tiffany fashion shoot with Richard Avedon (January 1955)'
+    },
+    {
+        "title": "DIANA VREELAND12",
+        "img": 'diana12.jpg',
+        "category": 'DIANA VREELAND',
+        "what": 'At the Diana Vreeland Costume Exhibition (December 1980)'
+    },
+    {
+        "title": "DIANA VREELAND13",
+        "img": 'diana13.jpg',
+        "category": 'DIANA VREELAND',
+        "what": 'At her temporary office at Vogue (November 1962)'
     },
     
     {
@@ -1261,6 +1292,295 @@ const tasks = [
         "id": 'TO BE LOGGED'
     },
     {
+        "title": "TYLER MITCHELL1",
+        "img": 'tyler1.jpg',
+        "category": ['TYLER MITCHELL','ANOK YAI', 'MONA TOUGAARD'],
+        "who": 'Vittoria Ceretti, Anok Yai, Mona Tougaard and Tyler Mitchell',
+        "what": 'Ferragamo FW23 Campaign in partnership with the Uffizi Gallery',
+    },
+    {
+        "title": "TYLER MITCHELL2",
+        "img": 'tyler2.jpg',
+        "category": ['TYLER MITCHELL','ANOK YAI'],
+        "who": 'Vittoria Ceretti, Anok Yai and Tyler Mitchell',
+        "what": 'Ferragamo FW23 Campaign in partnership with the Uffizi Gallery',
+    },
+    {
+        "title": "TYLER MITCHELL3",
+        "img": 'tyler3.jpg',
+        "category": ['TYLER MITCHELL','ANOK YAI'],
+        "who": 'Vittoria Ceretti, Anok Yai and Tyler Mitchell',
+        "what": 'Ferragamo FW23 Campaign in partnership with the Uffizi Gallery',
+    },
+    {
+        "title": "TYLER MITCHELL4",
+        "img": 'tyler4.jpg',
+        "category": ['TYLER MITCHELL', 'MONA TOUGAARD'],
+        "who": 'Mona Tougaard',
+        "what": 'Ferragamo FW23 Campaign in partnership with the Uffizi Gallery',
+    },
+    {
+        "title": "TYLER MITCHELL5",
+        "img": 'tyler5.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'Vittoria Ceretti',
+        "what": 'Ferragamo FW23 Campaign in partnership with the Uffizi Gallery',
+    },
+    {
+        "title": "TYLER MITCHELL6",
+        "img": 'tyler6.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'The Weeknd',
+        "where": 'W Magazine The Pop Issue (Summer 2023)',
+    },
+    {
+        "title": "TYLER MITCHELL7",
+        "img": 'tyler7.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'Lily Rose Depp',
+        "where": 'W Magazine The Pop Issue (Summer 2023)',
+    },
+    {
+        "title": "TYLER MITCHELL8",
+        "img": 'tyler8.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Styled by Carlos Nazario',
+        "where": 'i-D (November 2019)',
+    },
+    {
+        "title": "TYLER MITCHELL9",
+        "img": 'tyler9.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'Michaela Coel',
+        "where": 'WSJ. Magazine November (November 2020)',
+    },
+    {
+        "title": "TYLER MITCHELL10",
+        "img": 'tyler10.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'Michaela Coel',
+        "where": 'WSJ. Magazine November (November 2020)',
+    },
+    {
+        "title": "TYLER MITCHELL11",
+        "img": 'tyler11.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'Michaela Coel',
+        "where": 'WSJ. Magazine November (November 2020)',
+
+    },
+    {
+        "title": "TYLER MITCHELL12",
+        "img": 'tyler12.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Wales Bonner SS17 (Ezekiel)',
+        "where": 'A Magazine Curated By (22nd Issue)',
+    },
+    {
+        "title": "TYLER MITCHELL13",
+        "img": 'tyler13.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Wales Bonner SS17 (Ezekiel)',
+        "where": 'A Magazine Curated By (22nd Issue)',
+    },
+    {
+        "title": "TYLER MITCHELL14",
+        "img": 'tyler14.jpg',
+        "category": 'TYLER MITCHELL',
+        "who": 'TYLER MITCHELL',
+        "what": 'JW Anderson FW19',
+    },
+    {
+        "title": "TYLER MITCHELL15",
+        "img": 'tyler15.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'JW Anderson FW19',
+    },
+    {
+        "title": "TYLER MITCHELL16",
+        "img": 'tyler16.jpg',
+        "category": 'TYLER MITCHELL', 
+        "what": 'JW Anderson FW19',
+    },
+    {
+        "title": "TYLER MITCHELL17",
+        "img": 'tyler17.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Loewe Mens FW19',
+    },
+    {
+        "title": "TYLER MITCHELL18",
+        "img": 'tyler18.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Loewe Mens FW19',
+    },
+    {
+        "title": "TYLER MITCHELL19",
+        "img": 'tyler19.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Loewe Mens FW19',
+    },
+    {
+        "title": "TYLER MITCHELL20",
+        "img": 'tyler20.jpg',
+        "category": 'TYLER MITCHELL',
+        "what": 'Loewe Mens FW19',
+    },
+    {
+        "title": "JAN BAIBOON1",
+        "img": 'jan1.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Kenzo styled by Imruh Asha shot by Carlijn Jacobs',
+        "where": 'Dazed (Autumn 2022)',
+
+    },
+    {
+        "title": "JAN BAIBOON2",
+        "img": 'jan2.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Kenzo styled by Imruh Asha shot by Carlijn Jacobs',
+        "where": 'Dazed (Autumn 2022)',
+    },
+    {
+        "title": "JAN BAIBOON3",
+        "img": 'jan3.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Kenzo styled by Imruh Asha shot by Carlijn Jacobs',
+        "where": 'Dazed (Autumn 2022)',
+    },
+    {
+        "title": "JAN BAIBOON4",
+        "img": 'jan4.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Chanel RTW SS22',
+    },
+    {
+        "title": "JAN BAIBOON5",
+        "img": 'jan5.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+    },
+    {
+        "title": "JAN BAIBOON6",
+        "img": 'jan6.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+    },
+    {
+        "title": "JAN BAIBOON7",
+        "img": 'jan7.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+    },
+    {
+        "title": "JAN BAIBOON8",
+        "img": 'jan8.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+    },
+    {
+        "title": "JAN BAIBOON9",
+        "img": 'jan9.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+    },
+    {
+        "title": "JAN BAIBOON10",
+        "img": 'jan10.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+
+    },
+    {
+        "title": "JAN BAIBOON11",
+        "img": 'jan11.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+
+    },
+    {
+        "title": "JAN BAIBOON12",
+        "img": 'jan12.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Emre Üna',
+        "where": 'Dry Clean Only Magazine FW 2022',
+
+    },
+    {
+        "title": "JAN BAIBOON13",
+        "img": 'jan13.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Luka Booth',
+        "where": ' Vogue Thailand (February 2023)',
+    },
+    {
+        "title": "JAN BAIBOON14",
+        "img": 'jan14.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'shot by Luka Booth',
+        "where": ' Vogue Thailand (February 2023)',
+    },
+    {
+        "title": "JAN BAIBOON15",
+        "img": 'jan15.jpg',
+        "category": 'JAN BAIBOON',
+        "where": 'i-D (Summer 2023)',
+        "what": 'Yves Saint Laurent shot by Youn Song-Yi',
+        "where": 'Vogue Korea (August 2023)',
+    },
+    {
+        "title": "JAN BAIBOON16",
+        "img": 'jan16.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Yves Saint Laurent shot by Youn Song-Yi',
+        "where": 'Vogue Korea (August 2023)',
+    },
+    {
+        "title": "JAN BAIBOON17",
+        "img": 'jan17.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Yves Saint Laurent shot by Youn Song-Yi',
+        "where": 'Vogue Korea (August 2023)',
+    },
+    {
+        "title": "JAN BAIBOON18",
+        "img": 'jan18.jpg',
+        "category": 'JAN BAIBOON',
+        "what": 'Yves Saint Laurent shot by Youn Song-Yi',
+        "where": 'Vogue Korea (August 2023)',
+    },
+    {
+        "title": "JAN BAIBOON19",
+        "img": 'jan19.jpg',
+        "category": 'JAN BAIBOON',
+        "where": 'Collectible Dry Magazine (November 2023)',
+    },
+    {
+        "title": "JAN BAIBOON20",
+        "img": 'jan20.jpg',
+        "category": 'JAN BAIBOON',
+        "where": 'Collectible Dry Magazine (November 2023)',
+    },
+    {
+        "title": "JAN BAIBOON21",
+        "img": 'jan21.jpg',
+        "category": 'JAN BAIBOON',
+        "where": 'Collectible Dry Magazine (November 2023)',
+    },
+    {
+        "title": "JAN BAIBOON22",
+        "img": 'jan22.jpg',
+        "category": 'JAN BAIBOON',
+        "where": 'Collectible Dry Magazine (November 2023)',
+    },
+    {
         "title": "MONA TOUGAARD1",
         "img": 'mona1.jpg',
         "category": 'MONA TOUGAARD',
@@ -1312,8 +1632,85 @@ const tasks = [
         "title": "MONA TOUGAARD9",
         "img": 'mona9.jpg',
         "category": 'MONA TOUGAARD',
-        "id": 'TO BE LOGGED',
-    }
+        "id": 'TO BE LOGGED'
+    },
+    {
+        "title": "MONA TOUGAARD10",
+        "img": 'mona10.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "what": 'Chanel SS24 and Chanel Fine Jewelry',
+        "where": 'Dazed (Spring 2024)',
+
+    },
+    {
+        "title": "MONA TOUGAARD11",
+        "img": 'mona11.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "what": 'Chanel SS24 and Chanel Fine Jewelry',
+        "where": 'Dazed (Spring 2024)',
+
+    },
+    {
+        "title": "MONA TOUGAARD12",
+        "img": 'mona12.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "where": 'M Le magazine du Monde',
+
+    },
+    {
+        "title": "MONA TOUGAARD13",
+        "img": 'mona13.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "where": 'M Le magazine du Monde',
+    },
+    {
+        "title": "MONA TOUGAARD14",
+        "img": 'mona14.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "where": 'Vogue UK (November 2023)',
+    },
+    {
+        "title": "MONA TOUGAARD15",
+        "img": 'mona15.jpg',
+        "category": ['MONA TOUGAARD', 'TYLER MITCHELL'],
+        "who": 'Mona Tougaard shot by Tyler Mitchell, styled by Carlos Nazario',
+        "where": 'i-D (Summer 2023)',
+    },
+    {
+        "title": "MONA TOUGAARD16",
+        "img": 'mona16.jpg',
+        "category": ['MONA TOUGAARD', 'TYLER MITCHELL'],
+        "who": 'Mona Tougaard shot by Tyler Mitchell, styled by Carlos Nazario',
+        "where": 'i-D (Summer 2023)',
+    },
+    {
+        "title": "MONA TOUGAARD17",
+        "img": 'mona17.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "where": 'Vogue UK Pride Portfolio (July 2023)',
+    },
+    {
+        "title": "MONA TOUGAARD18",
+        "img": 'mona18.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard and Vittoria Ceretti',
+        "where": '032c (Summer 2023)',
+    },
+    {
+        "title": "MONA TOUGAARD19",
+        "img": 'mona19.jpg',
+        "category": 'MONA TOUGAARD',
+        "who": 'Mona Tougaard',
+        "where": 'W Magazine (January 2023)',
+    },
+
+
     
 ];
 
@@ -1459,16 +1856,18 @@ function shuffleArray(array) {
 }
 
 const placeholderTexts = {
-    "CHRISTY TURLINGTON": "Achieved global recognition as one of the original supermodels in the 1980s and 1990s, gracing numerous magazine covers and becoming the face of major fashion brands.",
-    "ANOK YAI": "Gained prominence after a photo of her went viral on social media, leading to her debut as the second black model to open a Prada runway show since Naomi Campbell in 1997.",
-    "PETER LINDBERGH": "Revolutionized the concept of beauty in fashion photography by capturing the natural essence of his subjects, creating iconic images that transcend time and trends.",
-    "CINDY CRAWFORD": "Rose to fame as one of the original supermodels alongside Christy Turlington and Naomi Campbell, dominating the fashion world with her distinctive beauty and commercial success.",
-    "LINDA EVANGELISTA": "Established herself as one of the most versatile and enduring supermodels, known for her chameleon-like ability to transform for the camera and for her iconic collaborations with photographers and designers.",
-    "SORA CHOI": "Captured the fashion world's attention with her captivating presence and versatility, solidifying her status as one of South Korea's most successful international models.",
-    "MONA TOUGAARD": "Gained attention for her striking and unique features, quickly becoming a sought-after model for top designers and fashion houses.",
-    "STEVEN MEISEL": "Became renowned for his collaborations with Vogue Italia and for discovering and nurturing the careers of numerous supermodels, contributing significantly to the evolution of fashion photography.",
-    "NAOMI CAMPBELL": "Emerged as one of the most recognizable and influential supermodels of her generation, breaking racial barriers and reshaping the standards of beauty in the fashion industry.",
-    "DIANA VREELAND": "A legendary fashion editor and curator, known for her avant-garde approach to style and her influential positions at Harper's Bazaar and Vogue. She played a pivotal role in shaping fashion and culture during the 20th century with her innovative editorial direction and bold aesthetic choices.",
+    "CHRISTY TURLINGTON": "Christy Turlington is a supermodel and global philanthropist, known for her iconic appearances in numerous high-profile fashion campaigns and magazine covers. She rose to fame in the late 1980s and early 1990s as part of the supermodel era, working extensively with brands like Calvin Klein and Chanel. ",
+    "ANOK YAI": "Anok Yai gained prominence as a Sudanese-American fashion model, renowned for breaking barriers of inclusivity in the industry. She made history as the second black model to open a Prada fashion show since Naomi Campbell. Yai's presence highlights the growing importance of diversity and representation in fashion.",
+    "PETER LINDBERGH": "Peter Lindbergh was a visionary fashion photographer known for his cinematic, black-and-white portraits of supermodels. Lindbergh's raw and authentic approach to photography revolutionized the industry, earning him a place among the most influential fashion photographers of all time.",
+    "CINDY CRAWFORD": "Cindy Crawford is an iconic supermodel whose career defined the fashion landscape of the 1980s and 1990s. She was a muse for numerous designers and brands, notably working closely with Versace and Revlon. Crawford's all-American beauty and business acumen cemented her status as one of the most recognizable faces in fashion history.",
+    "LINDA EVANGELISTA": "Linda Evangelista is a Canadian supermodel who revolutionized the modeling industry with her chameleon-like ability to transform for every shoot. She was one of the original supermodels of the 1990s, working extensively with designers like Gianni Versace and photographers like Steven Meisel.",
+    "SORA CHOI": "Sora Choi is a South Korean model celebrated for her distinctive look and versatility on the runway. She has walked for major fashion brands such as Chanel, Louis Vuitton, and Prada, gaining recognition for her captivating presence. ",
+    "MONA TOUGAARD": "Mona Tougaard is a Danish fashion model known for her striking features and commanding presence on the runway. She has walked for top fashion houses including Chanel and Dior, gaining recognition for her elegant yet edgy style. ",
+    "STEVEN MEISEL": " Steven Meisel is a prolific fashion photographer renowned for his collaborations with Vogue Italia and his iconic imagery that captures the zeitgeist of each era. Meisel's ability to innovate and provoke thought through his photography has earned him a place as one of the most influential figures in the industry.",
+    "NAOMI CAMPBELL": "Naomi Campbell is a British supermodel and entrepreneur whose career has spanned over three decades, making her one of the most enduring figures in fashion. She has graced countless magazine covers, walked for renowned designers, and has been a muse for iconic photographers like Peter Lindbergh. ",
+    "DIANA VREELAND": "Diana Vreeland was a legendary fashion editor and curator, known for her revolutionary approach to style and creativity. She served as the editor-in-chief of Vogue and later as a consultant for the Metropolitan Museum of Art's Costume Institute. Vreeland's visionary leadership and unapologetic embrace of innovation continue to shape the fashion industry's perception of art and culture.",
+    "TYLER MITCHELL": "Tyler Mitchell made history as the first African-American photographer to shoot the cover of Vogue in its 125-year history. His work often explores themes of identity, race, and youth culture, challenging traditional representations in fashion photography.  ",
+    "JAN BAIBOON": "Jan Baiboon is a rising Thai model known for her avant-garde style and boundary-pushing concepts on the runway. She has collaborated with luxury brands such as Balenciaga and Givenchy. Baiboon's presence challenges traditional norms, contributing to the evolution of fashion aesthetics.",
 }
 
 ;function upControls() {

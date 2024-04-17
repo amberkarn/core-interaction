@@ -105,17 +105,18 @@ body {
   background-color: transparent;
   border: none;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .left-nav-button {
   margin-left: 3rem;
   color:rgb(207, 0, 0); 
-
+  cursor: pointer;
 }
 .right-nav-button {
   margin-right: 2rem; 
   color:rgb(207, 0, 0); 
-
+  cursor: pointer;
 }
 
 .property-text {
@@ -148,6 +149,7 @@ body {
 
 .home-button:hover {
   background-color: black; 
+  cursor: pointer;
 }
 
 
