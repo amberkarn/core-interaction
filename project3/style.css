@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  position: relative; /* Ensure relative positioning for children */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  /* background-color: aqua; */
+  margin-bottom: auto; /* Push the container to the top */
+  z-index: 1; /* Ensure the container is above clock-container */
+}
+
+#redirectButton {
+  margin-top: 1rem; 
+  padding: 0.5rem 0.5rem; 
+  font-size: 1.5rem;
+  color: black; 
+  border: 3px solid black; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s border 0.3s; 
+}
+
+#redirectButton:hover {
+  background-color: white;
+  color: red; 
+  border: 3px solid red; 
+}
+
+.clock-container {
+  position: fixed; /* Position clock container */
+  bottom: 0; /* Align to bottom */
+  width: 100%; /* Full width */
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1.5px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: 2rem; /* Adjust font size */
+    margin-bottom: 1rem; /* Adjust spacing between container and clock-container */
+  }
+
+  .text {
+    margin-bottom: 0.1rem; /* Adjust spacing between text and button */
+  }
+
+  .clock-container {
+    font-size: 0.5rem;
+  }
+}
+
+/* Define keyframes for fade-in animation */
+@keyframes fadeInContainer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInButton {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0; /* Button starts fading in halfway through */
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInClock {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0; /* Clock starts fading in halfway through */
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to container */
+.container {
+  animation: fadeInContainer 1s ease-in-out forwards; /* Adjust duration and timing function as needed */
+}
+
+/* Apply fade-in animation to button */
+#redirectButton {
+  animation: fadeInButton 1.7s ease-in-out forwards; /* Adjust duration and timing function as needed */
+}
+
+/* Apply fade-in animation to clock */
+.clock-container {
+  animation: fadeInClock 3.5s ease-in-out forwards; /* Adjust duration and timing function as needed */
+}
+
