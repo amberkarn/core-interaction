@@ -1,18 +1,31 @@
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-    align-items: center; 
-    height:max-content;
-    padding: 10%;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: forestgreen;
+    background-color: lavender; 
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    height: 60vh; /* Make the flex container take up the full viewport height */
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    display: flex;
+    flex-direction: column;
+}
+
+
 .flex-item {
-    color:crimson; 
-    text-align: center; 
+    color: forestgreen; 
+    text-align: left; 
+    padding-left: 3rem;
     cursor: pointer; 
-    font-size: 3.2em;
-    line-height: 40px;
+    font-size: 2em;
+    font-family: "Source Serif 4", serif;
 }
 
 .flex-item a {
@@ -21,24 +34,16 @@
 }
 
 .flex-item:hover {
-    transform: scale(1.1);
-    transition: transform 0.4s ease;
+    text-decoration: underline; /* Add underline on hover */
 }
+
 
 h1 {
     font-size: 5em;
-    text-align: center;
-        font-family: "Instrument Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-    color: crimson;
-}
-
-.subtitle {
-font-size: 0.4em;
-}
-
-body {
-    background-color: snow;
+    text-align: left;
+    padding: 3rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: forestgreen;
 }
