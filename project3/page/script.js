@@ -1,6 +1,6 @@
 let x = 0;
 let y = 0;
-let speed = 0.2;
+let speed = 0.15;
 let lineHeight;
 let endReached = false;
 let isAnimating = true;
@@ -12,11 +12,11 @@ function setup() {
     cnv.parent ("p5container")
     lineHeight = windowHeight;
     createTopMenu();
-    toggleButton = createButton('stop for a second');
+    toggleButton = createButton('Stop For A Second');
     toggleButton.class('button');
     toggleButton.mousePressed(toggleAnimation);
   
-    resetButton = createButton('you can always begin again'); // Create reset button
+    resetButton = createButton('You Can Always Begin Again'); // Create reset button
     resetButton.class('button');
     resetButton.mousePressed(resetLine); // Call resetLine() when clicked
     resetButton.hide(); // Hide the reset button initially
@@ -89,10 +89,10 @@ function createTopMenu() {
 function toggleAnimation() {
     isAnimating = !isAnimating;
     if (isAnimating) {
-        toggleButton.html('stop for a second');
+        toggleButton.html('Stop For A Second');
         x = storedX; // Restore the x position when animation resumes
     } else {
-        toggleButton.html('let time pass');
+        toggleButton.html('Let Time Pass');
     }
 }
 
@@ -100,6 +100,6 @@ function toggleAnimation() {
 function resetLine() {
   x = 0; // Reset x position
   endReached = false; // Reset endReached flag
-  background(255); // Clear the background
+  background('floralwhite'); // Set the background color to oldlace
 }
 

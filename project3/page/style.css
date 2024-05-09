@@ -2,6 +2,19 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
+    font-family: "Inconsolata", monospace;
+    opacity: 0; /* Initial opacity set to 0 */
+    animation: fadeIn 1.5s forwards; /* Fade-in animation */
+    background-color: floralwhite;
+    }
+
+    @keyframes fadeIn {
+      from {
+          opacity: 0; /* Start with opacity 0 */
+      }
+      to {
+          opacity: 1; /* Fade in to full opacity */
+      }
   }
   
   #top-menu {
@@ -16,23 +29,37 @@ body {
   .button {
     bottom: 0.5rem;
     position: absolute;
+    background-color:white;
   left: 50%;
   transform: translate(-50%, -30%);
     padding: 0.5rem 0.5rem; 
     font-size: 1.5rem;
     color: black; 
     border: 3px solid black; 
+    font-family: "Inconsolata", monospace;
     cursor: pointer;
-    z-index: 1000;
     transition: background-color 0.3s, color 0.3s border 0.3s; /* Smooth transition for background and text color */
+    opacity: 0; /* Initial opacity set to 0 */
+    animation: fadeInButton 1.5s forwards; /* Fade-in animation */
+    z-index: 1000;
+}
+
+@keyframes fadeInButton {
+  from {
+      opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+      opacity: 1; /* Fade in to full opacity */
+  }
 }
 
 .button:hover {
-    background-color: white;
-    color: red; 
+  background-color:white;
+    font-family: "Inconsolata", monospace;
+    color:red; 
     border: 3px solid red; /* Add black border */
     transition: background-color 0.3s, color 0.3s border 0.3s; /* Smooth transition for background and text color */
-}
+  }
 
   .menu-item {
     display: inline-block;
@@ -41,6 +68,16 @@ body {
     position: relative; 
     display: inline-block;
     margin-inline-start: 2.7rem;
+    opacity: 0; /* Initial opacity set to 0 */
+    animation: fadeInMenuItem 1.5s forwards; /* Fade-in animation */  }
+
+    @keyframes fadeInMenuItem {
+      from {
+          opacity: 0; /* Start with opacity 0 */
+      }
+      to {
+          opacity: 1; /* Fade in to full opacity */
+      }
   }
 
   .menu-item::before {
@@ -53,3 +90,44 @@ body {
     background-color: black;
     transform: translateX(-50%);
   }
+
+  #backButton {
+    position: fixed;
+    bottom: 1.2rem;
+    left: 2rem;
+    padding: 0.6rem 0.6rem; /* Adjust padding as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    background-color:white;
+    border: 3px solid black; 
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+    opacity: 0; /* Initial opacity set to 0 */
+    animation: fadeInButton 1.5s forwards; /* Fade-in animation */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+@keyframes fadeInButton {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+
+#backButton:hover {
+  color:red; 
+  border: 3px solid red; /* Add black border */
+  background-color:white;
+}
+
+@keyframes fadeOutLine {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}

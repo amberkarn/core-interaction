@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>your days</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,600;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     
+  <div id="dayclock">
+    <ul class="hour-list"></ul> <!-- This will be populated with hours -->
+    <div class="current-time-line"></div> <!-- This will indicate the current time -->
+</div>
+
+  <div id="top-menu"></div>
+
     <div class="flex-container">
         <div class="container">
-          <div class="text">how you live your days is</div>
-          <button id="redirectButton">how you live your life</button>
+          <div class="text">How You Live Your Days Is</div>
+          <button id="redirectButton"><a href="page/index.html">How You Live Your Life</a></button>
         </div>
         <div class="clock-container" id="clockContainer">
           <h1 id="daysCounter"></h1>
         </div>
       </div>
-
+      
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 <script src="script.js"></script>
 </body>
