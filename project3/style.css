@@ -103,13 +103,7 @@ font-family: "Libre Baskerville", serif;
   font-family: "Inconsolata", monospace;
 }
 
-.current-time-line {
-  top: 0;
-  width: 2px; /* Adjust thickness as needed */
-  height: 100%;
-  background-color: black;
-  z-index: 999; /* Ensure the line is above menu items */
-}
+
 
 #dayclock {
   position: fixed;

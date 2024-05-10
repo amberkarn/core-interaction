@@ -38,42 +38,42 @@ document.addEventListener('DOMContentLoaded', function() {
         hourList.appendChild(hourItem);
     }
 
-    function updateTimeLine() {
-        const currentTime = new Date(); // Get current UTC time
-        const newYorkTime = new Date(currentTime.toLocaleString("en-US", {timeZone: "America/New_York"}));
-        let currentHour = newYorkTime.getUTCHours(); // Get current hour in New York time
-        const currentMinute = newYorkTime.getUTCMinutes(); // Get current minute in New York time
+    // function updateTimeLine() {
+    //     const currentTime = new Date(); // Get current UTC time
+    //     const newYorkTime = new Date(currentTime.toLocaleString("en-US", {timeZone: "America/New_York"}));
+    //     let currentHour = newYorkTime.getUTCHours(); // Get current hour in New York time
+    //     const currentMinute = newYorkTime.getUTCMinutes(); // Get current minute in New York time
 
         
     
-        // If the current hour goes beyond 24, loop back to the start of the day
-        if (currentHour >= 24) {
-            currentHour -= 24;
-        }
+    //     // If the current hour goes beyond 24, loop back to the start of the day
+    //     if (currentHour >= 24) {
+    //         currentHour -= 24;
+    //     }
     
-        const hourItemWidth = hourList.clientWidth / 24; // Width of each hour item
-        const linePosition = (hourItemWidth * (currentHour + currentMinute / 60)); // Position of the line
+    //     const hourItemWidth = hourList.clientWidth / 24; // Width of each hour item
+    //     const linePosition = (hourItemWidth * (currentHour + currentMinute / 60)); // Position of the line
     
-        // Calculate the scroll position to center the current hour
-        const scrollPosition = linePosition - (dayClock.clientWidth / 2);
-        hourList.scrollLeft = scrollPosition;
+    //     // Calculate the scroll position to center the current hour
+    //     const scrollPosition = linePosition - (dayClock.clientWidth / 2);
+    //     hourList.scrollLeft = scrollPosition;
     
-        // Center the line horizontally
-        const lineWidth = 0.5; // Width of the line
-        const lineLeft = scrollPosition + (dayClock.clientWidth / 2) - (lineWidth / 2);
-        const currentTimeLine = document.querySelector('#dayclock .current-time-line');
-        if (currentTimeLine) {
-            currentTimeLine.style.left = `${lineLeft}px`;
-        }
-    }
+    //     // Center the line horizontally
+    //     const lineWidth = 0.5; // Width of the line
+    //     const lineLeft = scrollPosition + (dayClock.clientWidth / 2) - (lineWidth / 2);
+    //     const currentTimeLine = document.querySelector('#dayclock .current-time-line');
+    //     if (currentTimeLine) {
+    //         currentTimeLine.style.left = `${lineLeft}px`;
+    //     }
+    // }
     
 
 
-    // Initial call to update the time line
-    updateTimeLine();
+    // // Initial call to update the time line
+    // updateTimeLine();
 
-    // Update the time line every second to account for minute changes
-    setInterval(updateTimeLine, 1000);
+    // // Update the time line every second to account for minute changes
+    // setInterval(updateTimeLine, 1000);
 });
 
 
