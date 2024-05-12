@@ -9,7 +9,7 @@ body {
   align-items: center;
   text-decoration: none;
   background-color: floralwhite; /* Remove duplicate background-color declaration */
-  color: red;
+  color: black;
 }
 
 .container {
@@ -99,7 +99,7 @@ font-family: "Libre Baskerville", serif;
 
 #daysCounter {
   font-size: 1.4rem;
-  color: red;
+  color: black;
   font-family: "Inconsolata", monospace;
 }
 
